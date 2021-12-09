@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Program Start!"
+export HPCTool=`pwd`
+export HPCTools=/nas/HPCTools
+
+echo "Setting Variable..."
+#variable Set
+export sms_name=`hostname`
+
+export sms_ip=10.10.0.1
+export sms_eth_internal=enp28s0f3
+export eth_provision=enp28s0f3
+export internal_netmask=255.255.255.0
+export internal_netmask_l=24
+export ntp_server=10.10.0.1
+export c_ip_pre=10.10.0.1
+
+export isoversion=2003
+
+echo "Seting Network...."
+sh $HPCTool/step1/network-set.sh
+
