@@ -26,13 +26,13 @@ export c_ip_pre=10.10.0.1
 
 
 echo "Seting File Path...."
-sh $HPCTool/step1/init-file.sh
+sh $HPCTool/scripts/step1/init-file.sh
 
 echo "Seting Parformance-set ..."
-sh $HPCTool/step1/performance-set.sh
+sh $HPCTool/scripts/step1/performance-set.sh
 
 echo "Seting Network...."
-sh $HPCTool/step1/network-set.sh
+sh $HPCTool/scripts/step1/network-set.sh
 
 
 
