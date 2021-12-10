@@ -19,5 +19,5 @@ export c_ip_pre=10.10.0.1
 export isoversion=2003
 
 echo "Seting Network...."
-sh $HPCTool/step1/network-set.sh
+sh $HPCTool/network-set.sh
 
