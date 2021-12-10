@@ -26,6 +26,6 @@ echo "recover file....."
 
 echo "restart network....."
 
-ifdown $sms_eth_internal
-ifup $sms_eth_internal
+nmcli conn down $sms_eth_internal
+nmcli conn up  $sms_eth_internal
 

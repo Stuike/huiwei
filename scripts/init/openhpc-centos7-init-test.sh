@@ -35,6 +35,9 @@ mkdir -p ${package_dir}
 
 cp  /nas/iso/CentOS-7-x86_64-Everything-$isoversion.iso   ${package_dir}/
 cp  ${pacakge_source_dir}/EPEL/epel.tar  ${package_dir}/
+cp  ${pacakge_source_dir}/Centos-7.9/updates.tar  ${package_dir}/
+cp  ${pacakge_source_dir}/Centos-7.9/extras.tar  ${package_dir}/
+
 
 cp  ${pacakge_source_dir}/openhpc/OpenHPC-$openhpcver.CentOS_7.x86_64.tar  ${package_dir}/
 mkdir -p ${package_dir}/xcat
