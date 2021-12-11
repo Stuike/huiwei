@@ -1,7 +1,7 @@
 #!/bin/bash
 
 packages=/nas/HPCTools
-intel_ins_path=/opt/ohpc/pub/apps/intel
+intel_ins_path=/apps/intel
 mkdir -p /cachetmp/intel/
 
 BaseKit=2021.3.0.3422

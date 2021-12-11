@@ -4,7 +4,7 @@
 #  CentOS-7.  You can use this repo and yum to install items directly off the
 #  local file that we release.
 #
-# To use this repo, put in your DVD and use it with the other repos too:
+# To use this repo, put in your local and use it with the other repos too:
 #  yum --enablerepo=c7-local [command]
 #
 # or for ONLY the local repo, do this:
@@ -12,7 +12,7 @@
 #  yum --disablerepo=\* --enablerepo=c7-local [command]
 
 [c7-local]
-name=CentOS-$releasever - Media
+name=CentOS-$releasever - Local
 baseurl=file:///opt/repo/Centos
 
 gpgcheck=1

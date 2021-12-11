@@ -1,0 +1,24 @@
+#%Module1.0#####################################################################
+
+proc ModulesHelp { } {
+
+        puts stderr " "
+        puts stderr "This module loads the vasp utility"
+        puts stderr "\nVersion 6.1.0\n"
+
+}
+module-whatis "Name: VASP"
+module-whatis "Version: 6.1.0"
+module-whatis "Category: utility, developer support"
+module-whatis "Keywords: System, Utility"
+module-whatis "Description: Build by oneapi 2021"
+module-whatis "URL https://www.vasp.at"
+
+set     version             6.1.0
+
+module load OneAPI/compiler/2021.4.0
+module load OneAPI/mkl/2021.4.0
+module load OneAPI/mpi/2021.4.0
+module load OneAPI/mkl32/2021.4.0
+
+prepend-path    PATH                /opt/ohpc/pub/apps/VASP/6.1.0/bin
